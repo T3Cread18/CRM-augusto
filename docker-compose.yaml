@@ -1,7 +1,7 @@
 
 services: 
   web:
-    image: odoo:latest
+    image: odoo:16.0
     depends_on:
       - db
     ports:
@@ -17,6 +17,8 @@ services:
       - PASSWORD=odoo
   db:
     image: postgres:latest
+    ports:
+      - "5432:5432"
     environment:
       - POSTGRES_DB=postgres
       - POSTGRES_PASSWORD=odoo

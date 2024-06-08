@@ -1,0 +1,6 @@
+39c9d9998a3f9fe83abe1dcafe101e42  rootfs
+b5152ceae2c7d242f8236309a83b0799  uImage
+35b3ea49e3f61cceccc8c623a060eef1  custconf
+3a141e557d276d466b0b325d92f1c10e  fwu_ver
+899b03fc2f59bea3e5577a9bf337c70b  hw_ver
+3eb8a3cf9d9ca8091566593d2a2276d8  fwu.sh
